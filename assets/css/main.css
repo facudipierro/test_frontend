@@ -1,0 +1,17 @@
+body{
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	background: #ccc;
+}
+ul{
+	list-style: none;
+	margin:0;
+}
+.search-bar{
+	background-color: #ffe600;
+	padding: 10px 0;
+}
+.search-bar li{
+	display: inline-block;
+	margin-right: 10px;
+}
