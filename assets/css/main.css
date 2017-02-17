@@ -1,12 +1,16 @@
 body{
-	font-family: Arial, sans-serif;
+	font-family: Arial,Helvetica,"Nimbus Sans L",sans-serif;
 	font-size: 12px;
 	background: #eee;
 }
 ul{
 	list-style: none;
 	margin:0;
+	padding: 0;
 }
+/* 
+ * Search
+ */
 .search-bar{
 	background-color: #ffe600;
 	padding: 10px 0;
@@ -55,3 +59,55 @@ ul{
 	z-index: 99;
 	border: 0;
 }
+/* 
+ * Breadcrumbs
+ */
+.breadcrumbs ul li{
+	display: inline-block;
+	padding: 16px 0;
+	color:#999;
+}
+.breadcrumbs ul li:last-child{
+	font-weight: 600;
+}
+.breadcrumbs ul li a{
+	font-size: 14px;
+	color:#999;
+}
+/* 
+ * Listado
+ */
+ .listado-resultados .wrap-listado{
+ 	border-radius: 4px;
+ 	background-color: #fff;
+ 	color:#333;
+ 	padding-top: 16px;
+ }
+ .listado-resultados .wrap-listado .listado-producto{
+ 	padding-top: 16px;
+ 	margin-bottom: 16px;
+ 	margin-right: 30px;
+ 	border-bottom: 1px solid #eee;
+ }
+ .listado-resultados .wrap-listado .listado-foto img{
+ 	border-radius: 4px;
+ }
+ .listado-resultados .wrap-listado .listado-precio{
+ 	font-size: 24px;
+ 	padding: 10px 0 16px 0;
+ }
+ .listado-resultados .wrap-listado .listado-precio .icon-shipping{
+ 	width: 18px;
+ 	height: 18px;
+ 	display: inline-block;
+ 	background: url('../images/ic_shipping.png') 0 0 no-repeat;
+ 	margin-left: 5px;
+ }
+ .listado-resultados .wrap-listado .listado-titulo{
+ 	font-size: 18px;
+ }
+ .listado-resultados .wrap-listado .listado-ubicacion{
+ 	font-size: 12px;
+ 	color: #999;
+ 	padding-top: 20px;
+ }
